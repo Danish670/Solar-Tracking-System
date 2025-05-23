@@ -36,20 +36,17 @@ Solar panels work best when they are directly facing the sun. This system automa
 3. The **servo motor** adjusts the solar panel’s orientation.
 4. LDR readings are sent to **Adafruit IO** using MQTT for real-time monitoring.
 
-![System Diagram](images/system-diagram.png)
-
 ---
 
 ## 💻 Code
 
-You can find the Arduino code in the `code/` folder:  
-[`solar_tracker.ino`](code/solar_tracker.ino)
+Code file is the zip folder above
 
 ---
 
 ## 📊 Real-Time Monitoring
 
-The system pushes live sensor data to [Adafruit IO](https://io.adafruit.com/). Here's an example dashboard setup:
+The system pushes live sensor data to Adafruit. Here's an example dashboard setup:
 
 - LDR Intensity Graph
 - Servo Position Indicator
@@ -69,9 +66,7 @@ This **IoT-enabled Smart Solar Tracker** is a low-cost, efficient solution for m
 
 ---
 
-## 📄 License
 
-MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
